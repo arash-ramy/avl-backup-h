@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b1748c90-82d1-42db-a8cb-2b6d0c5af374" name="ramy">
+        <fileTransfer accessType="SFTP" host="65.109.138.40" port="3311" sshConfigId="f07fdfcc-a840-4e3e-8b48-74944e5d6b56" sshConfig="root@65.109.138.40:3311 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="9981cfae-b3ce-4470-875c-cf8dbd9d8f97" name="RAMY FINDLAND">
+        <fileTransfer accessType="SFTP" sshConfigId="d81562c2-2892-4348-b738-90587bb23b47" sshConfig="root@65.109.138.40:3311 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
